@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Manish263 
-Karthik-Nayak98
-/
-N-queens-visualiser
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-N-queens-visualiser/app.js /
-@Karthik-Nayak98
-Karthik-Nayak98 refactor: Rename the files
-Latest commit 0d5fcdb on 12 Feb 2021
- History
- 1 contributor
-226 lines (194 sloc)  7.66 KB
-
 'use strict'
 const numberbox = document.getElementById("numberbox");
 const slider = document.getElementById("slider");
@@ -252,18 +224,3 @@ playButton.onclick = async function visualise() {
     }
     await q.nQueen();
 };
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-You have no unread notifications
